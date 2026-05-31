@@ -1,0 +1,52 @@
+HƯỚNG DẪN CHẠY HỆ THỐNG QUẢN LÝ DỊCH VỤ THỂ THAO
+(Bản chạy trực tiếp - Không cần cài đặt)
+Chào thầy/cô, để thuận tiện cho việc chấm bài, nhóm đã chuẩn bị bộ chạy trực tiếp. Thầy/cô chỉ cần thực hiện theo các bước sau để khởi động chương trình:
+
+BƯỚC 1: THIẾT LẬP CƠ SỞ DỮ LIỆU (BẮT BUỘC)
+Vì ứng dụng quản lý dữ liệu trực tiếp từ SQL Server, thầy/cô vui lòng nạp dữ liệu trước khi mở ứng dụng:
+
+Mở tệp DuLieu_DoAn.sql bằng SQL Server Management Studio.
+
+Nhấn Execute (F5) để tạo cấu trúc bảng và nạp dữ liệu mẫu.
+
+Lưu ý: File SQL này đã bao gồm đầy đủ các tài khoản đăng nhập mẫu.
+
+BƯỚC 2: KHỞI ĐỘNG ỨNG DỤNG
+Thầy/cô không cần thực hiện các bước cài đặt phức tạp, chỉ cần:
+
+Truy cập vào thư mục 01_PhanMem.
+
+Tìm và nhấp đúp vào tệp có tên: BaiTapLonC#.exe (có biểu tượng ứng dụng).
+
+Ứng dụng sẽ khởi động ngay lập tức.
+
+BƯỚC 3: THÔNG TIN ĐĂNG NHẬP & DỮ LIỆU MẪU
+Thầy/cô có thể sử dụng các tài khoản sau để kiểm tra tính năng:
+
+Tài khoản Quản trị (Admin):
+
+Tên đăng nhập: admin
+
+Mật khẩu: 1
+
+Tài khoản Nhân viên:
+
+Tên đăng nhập: nhanvien1
+
+Mật khẩu: 1
+
+BƯỚC 4: XEM BÁO CÁO DOANH THU (QUAN TRỌNG)
+Để kiểm tra tính năng biểu đồ doanh thu đã được nhóm thực hiện:
+
+Sau khi đăng nhập, vào menu Nghiệp vụ -> Báo cáo doanh thu.
+
+Thầy/cô vui lòng chọn Năm 2025 để thấy các cột dữ liệu doanh thu mẫu đã được chuẩn bị sẵn.
+
+Mẹo nhỏ: Nếu dữ liệu chưa hiện lên, thầy/cô có thể vào menu Hệ thống -> Phục hồi và chọn tệp data_Backup.bak để nạp lại trạng thái dữ liệu tốt nhất.
+
+DANH MỤC CÁC TỆP ĐÍNH KÈM
+📁 01_PhanMem: Chứa tệp thực thi và các thư viện hỗ trợ (vui lòng không xóa các file .dll).
+
+📁 02_DuLieu_SQL: Chứa file .sql khởi tạo và file .bak dự phòng.
+
+📄 BAOCAONHOM15.docx: Báo cáo chi tiết về đồ án.
